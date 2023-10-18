@@ -1,0 +1,40 @@
+.sidebar {
+    position: sticky;
+    width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.sidebarTop {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.sidebarMain {
+    background-color: rgb(241, 241, 241);
+    height: inherit;
+}
+
+.sidebarAccount {
+    display: flex;
+    padding: 10px 4px;
+}
+
+.sidebarGeneral {
+    padding: 0 0 40px 10px;
+}
+
+.sidebarDropOption {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px 0 0 0;
+}
+
+.dropIcons {
+    position: absolute;
+    right: 10px;
+}
