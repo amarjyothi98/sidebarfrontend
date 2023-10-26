@@ -1,0 +1,51 @@
+.centerPageContainer {
+
+}
+
+.centerTop {
+    height: 53px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+.listPart {
+    padding: 15px;
+    color: rgb(80, 80, 80);
+    /* background-color: red; */
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.hrList {
+   border-top: red;
+}
+
+.iconsList {
+    position: absolute;
+    right: 40px;
+    transform: translate(0, -25px);
+
+    display: none;
+    background-color: white;
+    /* display: none; */
+    padding-left: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.perIcon {
+    padding: 0 8px;
+}
+
+.listPart:hover {
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+.listPart:hover .iconsList {
+    display: block;
+}
